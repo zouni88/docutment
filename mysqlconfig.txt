@@ -28,3 +28,4 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'new password';
 ```
 grant all privileges on *.* to 'root'@'192.168.0.1' identified by 'password' with grant option;
 ```
+修改
