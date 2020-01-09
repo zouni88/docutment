@@ -37,3 +37,4 @@ flush privileges;
 use mysql;
 update user set host = '%' where user = 'root';
 ```
+zheli 'meiyouyigemingzi' ‘是吗’

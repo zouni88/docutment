@@ -1,0 +1,2 @@
+grant all privileges on *.* to 'root'@'%' identified by 'Qaz521..' with grant option;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Caoguoqiang123//' WITH GRANT OPTION;
