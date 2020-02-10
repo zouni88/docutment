@@ -66,6 +66,10 @@ flush privileges;
 use mysql;
 update user set host = '%' where user = 'root';
 ```
+`更细权限之后，一定要刷新一下，否则不会生效`
+```
+flush privileges;
+```
 
 
 
