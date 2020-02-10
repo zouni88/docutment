@@ -6,6 +6,9 @@ yum list installed mysql*
 yum remove mysql-community-*
 
 ```
+`这是一个重点`
+	def abc():
+		return '123'
 #### 安装mysql源	
 
 ``` 数据库官网地址
@@ -63,7 +66,7 @@ flush privileges;
 use mysql;
 update user set host = '%' where user = 'root';
 ```
-zheli 'meiyouyigemingzi' ‘是吗’
+
 
 
 
