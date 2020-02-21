@@ -50,19 +50,15 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'new password';
 ```
 ##### 注意:密码设置必须要大小写字母数字和特殊符号（,/';:等）,不然不能配置成功
 ### 开启mysql的远程访问 两种方式
-+ 方式1
+1. 方式1
 ```
 grant all privileges on *.* to 'root'@'192.168.0.1' identified by 'password' with grant option;
 ```
 ```
 flush privileges;
 ```
-+ 方式2
+2. 方式2
 ```
 use mysql;
 update user set host = '%' where user = 'root';
 ```
-zheli 'meiyouyigemingzi' ‘是吗’
-
-
-
