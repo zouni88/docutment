@@ -5,6 +5,6 @@
     * 修改 `registry-mirrors` 镜像地址
         * https://reg-mirror.qiniu.com
         * http://hub-mirror.c.163.com/
-        * https://registry.docker-cn.com
+        * https://registry.docker-cn.com 
     ![docker](res/docker_1.png) 
     
