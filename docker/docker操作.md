@@ -27,4 +27,3 @@
 1. 进入容器 `docker exec -it container_name /bin/bash`
 2. 修改容器提交: `docker commit -a "author" -m "modify" container_name/container_id ` 
 
-![avatar](aaa.png)
