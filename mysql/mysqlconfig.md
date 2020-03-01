@@ -48,6 +48,8 @@ grep "password" /var/log/mysqld.log
 ### 修改密码
 ```
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'new password';
+
+mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456'
 ```
  **注意:密码设置必须要大小写字母数字和特殊符号（,/';:等）,不然不能配置成功**
 ### 开启mysql的远程访问 两种方式

@@ -8,4 +8,3 @@
         * https://registry.docker-cn.com
 
 ![docker](res/docker_1.png)
-3.
