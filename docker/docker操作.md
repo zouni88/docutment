@@ -14,6 +14,7 @@
 2. 本地镜像的查看：`docker images`
 
 3. 删除：`docker rmi image_name`
+4. 修改镜像名字：`docker tag images_id 要推送的主机地址/镜像名：版本号`
 
 ### 容器基本操作：
 1. 查看容器：`docker ps`
