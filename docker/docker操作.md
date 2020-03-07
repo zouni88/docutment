@@ -1,20 +1,32 @@
 ### 镜像操作：
 1. 从仓库搜索镜像：`docker search image-name`  
 	搜索结果过滤:
+```Shell
+	#是否是官方提供：  
+	docker search --filter "is-official=true" image_name
+	# 是否是自动化构建：  
+	docker search --filter "is-automated=true" image_name
+	# 大于多少个`star`  
+	docker search --filter stars=3 image_name
 ```
-	* 是否是官方提供：  
-		docker search --filter "is-official=true" image_name
-	* 是否是自动化构建：  
-		docker search --filter "is-automated=true" image_name
-	* 大于多少个`star`  
-		docker search --filter stars=3 image_name
+	下载镜像：
+```Shell
+docker pull image_name
 ```
-	下载镜像：`docker pull image_name`  
 
-2. 本地镜像的查看：`docker images`
+2. 本地镜像的查看：
+```Shell
+docker images
+```
 
-3. 删除：`docker rmi image_name`
-4. 修改镜像名字：`docker tag images_id 要推送的主机地址/镜像名：版本号`
+3. 删除：
+```Shell
+docker rmi image_name
+```
+4. 修改镜像名字：
+```Shell
+docker tag images_id 要推送的主机地址/镜像名：版本号
+```
 
 ### 容器基本操作：
 1. 查看容器：`docker ps`
@@ -34,7 +46,7 @@
 
 ### 端口映射
 1. `docker run -itd --name=container_name -p 8888:80 images_name`
-	* **-p** 8888 指的是 宿主机端口->端口映射到容器80端口  访问：127.0.0.1:8888
-	* **注意** 命令顺序不能反，`image_name`在最后  
+	+ `-p` 8888 指的是 宿主机端口->端口映射到容器80端口  访问：127.0.0.1:8888
+	+ `注意:` 命令顺序不能反，`image_name`在最后  
 
 ![oper](res/docker_2.png)

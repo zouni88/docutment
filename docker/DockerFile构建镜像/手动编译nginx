@@ -18,3 +18,6 @@ RUN wget http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz &&\
       --with-debug &&\
     make &&\
     make install
+
+    # 设置环境变量
+    ENV PATH /usr/local/nginx/sbin:$PATH

@@ -11,9 +11,20 @@ RUN apk update
 # 安装nginx
 RUN apk add nginx && mkdir /run/nginx/
 
+# 安装python3 and uwsgi
+RUN apk add python3 && pip3 install --upgrade pip \
+    &&  apk add \
+        libuuid \
+        pcre \
+        mailcap \
+        gcc \
+        libc-dev \
+        linux-headers \
+        pcre-dev \
+    && pip3 install uwsgi
 
-# 设置环境变量
-ENV PATH /usr/local/nginx/sbin:$PATH
+# 安装python2
+RUN apk add python2
 
 EXPOSE 80 443 22
 
