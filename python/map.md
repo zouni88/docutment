@@ -8,3 +8,7 @@ keys = list(keys)
 item1 = map[keys[0]]
 print(item1)
 ```
+打印结果：
+```shell
+1
+```
