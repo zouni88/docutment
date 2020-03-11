@@ -14,10 +14,17 @@ yum install gcc
 
 **解决办法**：
 
-> 安装`python3-dev`,正常这么安装 提示找不到,先搜索`yum search python3 dev`
+> 安装`python3-dev`,正常这么安装 提示找不到,先搜索
+
+```shell
+yum search python3 dev
+```
 
 ![uwsgi1](res/uwsgi_1.png)
 
-> 因为当前版本是`python3.6`, 所以最终找到`python36-devel` 并安装`yum install python36-devel`
+> 因为当前版本是`python3.6`, 所以最终找到`python36-devel` 并安装
 
+```Shell
+yum install python36-devel
+```
 ![uwsgi2](res/uwsgi_2.png)

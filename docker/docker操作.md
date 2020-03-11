@@ -66,7 +66,7 @@ docker exec -it container_name /bin/bash
 ```
 2. 修改容器提交:
 ```Shell
-docker commit -a "author" -m "modify" container_name/container_id new_container_name:tag_name
+docker commit -a "author" -m "modify" container_name/container_id new_image_name:tag_name
 ```
 
 ### 端口映射
@@ -75,6 +75,7 @@ docker run -itd --name=container_name -p 8888:80 images_name
 ```
 
 > `-p` 8888 指的是 宿主机端口->端口映射到容器80端口  访问：127.0.0.1:8888
+>
 > `注意:` 命令顺序不能反，`image_name` 在最后  
 
 ![oper](res/docker_2.png)
