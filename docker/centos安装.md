@@ -1,4 +1,4 @@
-### step 1: 安装必要的一些系统工具
+### Step 1: 安装必要的一些系统工具
 ```Shell
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 ```
