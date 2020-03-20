@@ -1,0 +1,36 @@
+# 基础镜像
+FROM centos
+
+# 作者
+MAINTAINER small
+
+# 修改源
+RUN curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-8.repo \
+    && yum makecache
+
+# 安装python2
+RUN yum install -y python2
+
+RUN yum install -y python3
+
+WORKDIR ~
+# 修改pypi源
+COPY ./pip.conf .pip/
+
+# 安装virtualwrapper 配置python 虚拟环境
+#RUN pip2 install virtualenvwrapper
+# 配置环境变量
+ENV WORKON_HOME=$HOME/.virtualenvs
+ENV source /usr/bin/virtualenvwrapper.sh
+
+
+#RUN yum install nginx
+
+EXPOSE 80 443 22
+
+
+
+#CMD ["nginx"]
+
+# 容器启动后，执行命令
+#ENTRYPOINT ["nginx","-g","daemon off;"]
