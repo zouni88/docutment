@@ -31,7 +31,9 @@ c.NotebookApp.allow_root = True
 # 允许访问的主机ip  * 随意访问
 c.NotebookApp.ip='*'   
 # 密钥：/root/.jupyter/jupyter_notebook_config.json 文件的内容
-c.NotebookApp.password = u'sha1:03...
+c.NotebookApp.password = u'sha1:03...  '
+# 修改工作目录
+c.NotebookApp.notebook_dir='filepath'
 ```
 
 修改完之后，重新启动`jupyter notebook`，浏览器打开`127.0.0.1:8888`输入刚开始设置的密码就正常登录了

@@ -27,6 +27,11 @@ docker rmi image_name
 ```Shell
 docker tag images_id 要推送的主机地址/镜像名：版本号
 ```
+5. push到docker仓库
+```Shell
+# 前提是已经在docker服务注册并创建了仓库
+docker push 刚刚修改的镜像名字（要推送的主机地址/镜像名：版本号）这一长串
+```
 
 ### 容器基本操作：
 1. 查看容器：
