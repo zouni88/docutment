@@ -1,6 +1,6 @@
 ### pip3 安装 uwsgi遇到异常：  
 
-> Exception: you need a C compiler to build uWSGI
+> **Exception: you need a C compiler to build uWSGI**
 
 
 **解决办法**：  
