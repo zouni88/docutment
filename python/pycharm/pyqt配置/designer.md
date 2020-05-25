@@ -1,6 +1,5 @@
 ### pycharm 配置pyqt 可拖拽控件工具
 
-
 1. 打开`pycharm` 找到`Tools/External_Tools` 新增一个
 ![external](res/external_tools.png)
 2. 找到`desiginer.exe`位置,我的是在anaconda3安装的，就在我的虚拟环境目录下面找到：

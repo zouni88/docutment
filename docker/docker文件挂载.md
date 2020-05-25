@@ -11,3 +11,6 @@
 > docker run -itd --name=small_mysql -p 33066:3306 -v d:/docker/mysql/:/var/lib/mysql/ -e MYSQL_ROOT_PASSWORD=123456 mysql
 
   * **-e** 表示：向容器内传参，ex:设定数据库密码：`MYSQL_ROOT_PASSWORD=123456`
+
+
+docker run -itd --name=flask_mysql -p 33066:3306 -v /var/lib/mysql:/var/lib/mysql/ -e MYSQL_ROOT_PASSWORD=123456 mysql
