@@ -1,3 +1,12 @@
+### windows 平台 环境配置
+1. 首先安装pyqt5
+```
+pip install sip    //这个是pyqt开发商提供的支持包
+pip install pyqt5
+pip install pyqt5-tools
+```
+
+
 ### pycharm 配置pyqt 可拖拽控件工具
 
 1. 打开`pycharm` 找到`Tools/External_Tools` 新增一个
@@ -11,6 +20,14 @@
 ![QtDesigner](res/QtDesigner.png)
 
 3. 编辑完UI后，还需要转换成`py`文件才行，所以需要配置pyui转换
+
+需要配置下参数：
+```
+Program: python.exe 路径
+Arguments: -m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtension$.py
+Working directory: $FileDir$
+```
+
 
 ![pyui](res/pyui.png)
 
