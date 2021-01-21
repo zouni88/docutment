@@ -10,7 +10,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U funcat
 pip install --upgrade pip
 ```
 更新失败
-![pip更新](./res/pip_update.png)
+![pip更新](/res/python/pip_update.png)
 
 解决办法：
 重新下载安装

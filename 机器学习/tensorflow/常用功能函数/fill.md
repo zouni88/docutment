@@ -19,7 +19,7 @@ plt.show()
 
 ```
 
-![fil](res/fill1.png)
+![fil](/res/tensorflow/fill1.png)
 ```python
 # %%
 # 画一个红色的图，也很简单
@@ -33,4 +33,4 @@ img.shape
 plt.imshow(img)
 plt.show()
 ```
-![fill2](res/fill2.png)
+![fill2](/res/tensorflow/fill2.png)

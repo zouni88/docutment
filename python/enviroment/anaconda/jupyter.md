@@ -16,7 +16,7 @@ jupyter notebook password
 sha1:23524a335a85:461a1f37e8e32af1ab8899329b3e41c41ea6e546
 ```
 
-![jupyter](res/jupyter_1.png)
+![jupyter](/res/conda/jupyter_1.png)
 
 ### 修改配置文件
 ```

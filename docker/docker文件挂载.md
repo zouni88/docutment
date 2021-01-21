@@ -5,7 +5,7 @@
 
   这里修改了nginx默认启动页面关联到本地
 
- ![filemount](res/docker_4.png)
+ ![filemount](/res/docker/docker_4.png)
 
 ### 文件目录挂载
 > docker run -itd --name=small_mysql -p 33066:3306 -v d:/docker/mysql/:/var/lib/mysql/ -e MYSQL_ROOT_PASSWORD=123456 mysql

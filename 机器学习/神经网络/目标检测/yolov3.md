@@ -1,8 +1,8 @@
 ### 准备数据集
 labelImg 数据标注工具
-![labelImg](res/labelImg.png)
+![labelImg](/res/object_detected/labelImg.png)
 ### 模型结构 如下图：
-![yolov3](res/yolov3.png)
+![yolov3](/res/object_detected/yolov3.png)
 网络输入 416x416 经过一系列卷积层之后分成了三个分支，最终得到三个输出：[13,13,c],[26,26,c],[52,52,c] **c是通道数**  
 feature map 越大，感受野越小，适合预测小目标，  
 [13,13] feature map适合预测大目标

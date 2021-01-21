@@ -7,4 +7,4 @@
         * http://hub-mirror.c.163.com/
         * https://registry.docker-cn.com
 
-![docker](res/docker_1.png)
+![docker](/res/docker/docker_1.png)

@@ -20,11 +20,11 @@ yum install gcc
 yum search python3 dev
 ```
 
-![uwsgi1](res/uwsgi_1.png)
+![uwsgi1](/res/python/uwsgi_1.png)
 
 > 因为当前版本是`python3.6`, 所以最终找到`python36-devel` 并安装
 
 ```Shell
 yum install python36-devel
 ```
-![uwsgi2](res/uwsgi_2.png)
+![uwsgi2](/res/python/uwsgi_2.png)

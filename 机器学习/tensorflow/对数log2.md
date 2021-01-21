@@ -2,7 +2,7 @@
  根据对数换底公式：  
  ∵
 
- ![log2](res/log.png)  
+ ![log2](/res/tensorflow/log.png)  
 
 
     ∴ loge(4)/loge(2) = log2(4) = 2

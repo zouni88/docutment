@@ -83,4 +83,4 @@ docker run -itd --name=container_name -p 8888:80 images_name
 >
 > `注意:` 命令顺序不能反，`image_name` 在最后  
 
-![oper](res/docker_2.png)
+![oper](/res/docker/docker_2.png)

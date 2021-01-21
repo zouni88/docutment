@@ -6,7 +6,7 @@ pip2 install virtualenvwrapper
 # **查找安装路径**   
 which virtualenvwrapper.sh
 ```
-![virtual](res/bushu_1.png)
+![virtual](/res/python/bushu_1.png)
 
 编辑`.bashrc`
 ```Shell
@@ -26,7 +26,7 @@ source .bashrc
 ```Shell
 which python3
 ```
-![python3](res/bushu_2.png)
+![python3](/res/python/bushu_2.png)
 
 创建虚拟环境
 ```Shell
