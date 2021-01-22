@@ -40,7 +40,7 @@ git init
 git remote add origin git@gitee.com:SmallMrCao/beego_first.git
 ```
 
-<center>![初始化](/res/git/git_4.png)</center>
+![初始化](/res/git/git_4.png)
 
 ### 4. 添加完之后先pull，然后再add
 
