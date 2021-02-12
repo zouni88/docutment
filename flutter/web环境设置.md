@@ -17,5 +17,7 @@
     我这里用的 microsoft edge 浏览器
 5. 打包
     > flutter build web
+
+    > flutter build web --release  //生产环境打包
     
     可以看到 `build` 目录下多出一个**web** 文件夹 
