@@ -11,7 +11,9 @@
 
     > hugo server //运行服务
 
-
+5. 部署：
+    > hugo   //hugo 命令构建站点
+    build完后的站点文件夹下 `public` 目录
 
 
 
