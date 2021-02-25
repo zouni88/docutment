@@ -1,7 +1,8 @@
 ### windows新终端
 ![windows terminal](/res/windows/w_ter.png)
 
-**可以自定义主题：**
+### 可以自定义主题
+
 1. 打开设置
 ![](/res/windows/setting.png)
 2. 选择主题
