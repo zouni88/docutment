@@ -61,6 +61,10 @@ supervisord -c filename
 重启supervisor
 ```Shell
 supervisorctl -u admin -p 123 reload
+or
+ps -aux | grep supervisor
+找到进程
+kill -9 [supervisor pid]
 ```
 
 进入supervisor控制台
