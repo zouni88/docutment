@@ -2,6 +2,8 @@
 
 > drawImageRect函数使用  
 > drawImageRect(Image image, Rect src, Rect dst, Paint paint)
+
+
 image: 传入图片
 src: 矩形参数，这里是将给定大小的src，绘制到指定的dst矩形上面去
 ```dart
