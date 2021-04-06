@@ -4,8 +4,9 @@
 > drawImageRect(Image image, Rect src, Rect dst, Paint paint)
 
 
-image: 传入图片
-src: 矩形参数，这里是将给定大小的src，绘制到指定的dst矩形上面去
+image: 传入图片  
+src: 这里相当于画布的前景，这里是将给定大小的src，绘制到指定的dst矩形上面去
+dst: 这里相当于画布，用来绘制src
 ```dart
   @override
   void paint(Canvas canvas, Size size) {
