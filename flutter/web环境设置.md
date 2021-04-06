@@ -1,4 +1,5 @@
-# flutter web 开发
+### flutter 2.0 已经正式支持了web，不需要用下面方式单独启用web开发支持
+### flutter web 开发
 1. 开启`web`支持
 
     > flutter config --enable-web
