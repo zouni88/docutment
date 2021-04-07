@@ -23,7 +23,7 @@ dst: 这里相当于画布，用来绘制src
       //绘制矩形，4个参数：
       canvas.drawImageRect(
           image,
-          Rect.fromLTRB(0.0, 0.0, image.width + 0.0, image.height + 0.0),
+          Rect.fromLTRB(0.0, 0.0, image.width.toDouble(), image.height.toDouble()),
           Rect.fromLTRB(0, 0, size.width, imgh),
           _paint);
     }
