@@ -31,3 +31,5 @@ dst: 这里相当于画布，用来绘制src
 ```
 最终效果就是下面这样了，具体需要自己体会一下：
 ![x](/res/flutter/drawimage.jpg)
+
+参考文章：https://www.jianshu.com/p/84bf680106be
