@@ -4,7 +4,7 @@ clion配置toolschains:
     1. 打开终端 
     2. 进入subsystem,安装ssh
         ```shell
-        small@small:~$ sudo apt-get install openssh-server
+        small@small:~$ sudo apt-get install ssh
         [sudo] password for small:
         Reading package lists... Done
         Building dependency tree
@@ -14,7 +14,7 @@ clion配置toolschains:
         ```
     3. 编辑ssh配置文件：
         ```shell
-        small@small:/etc/ssh$ sudo systemctl enable ssh
+        small@small:/etc/ssh$ sudo vi sshd_config
         # 解开以下注释
         Port 2222
         AddressFamily any
@@ -27,7 +27,7 @@ clion配置toolschains:
         ```
     4. 启动ssh
         ```shell
-        small@small:/etc/ssh$ sudo service ssh restart
+        small@small:/etc/ssh$ sudo service ssh start
         * Restarting OpenBSD Secure Shell server sshd
         ```
     5. clion 测试链接就 ok了！
