@@ -9,7 +9,7 @@ syntax = "proto3";
 option go_package='.;grpc';
 ```
 * `.`:     表示生成pb文件在哪个位置  
-* `;grpc`: 表示生成的pb文件所属保命
+* `;grpc`: 表示生成的pb文件所属包名
 
 ```
 package grpc;
