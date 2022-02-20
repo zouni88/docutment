@@ -1,10 +1,11 @@
-### flutter 2.0 已经正式支持了web，不需要用下面方式单独启用web开发支持
+ flutter 2.0 已经正式支持了web，不需要用下面方式单独启用web开发支持
+ --------------
 ### flutter web 开发
-1. 开启`web`支持
+1. 开启`web`支持 (正式版默认启用)
 
     > flutter config --enable-web
 
-2. 再次 执行
+2. 再次 执行环境检查
     > flutter doctor
 
 3. 一切正常之后,正常创建项目，会多出一个`web`文件夹  
@@ -22,3 +23,24 @@
     > flutter build web --release  //生产环境打包
     
     可以看到 `build` 目录下多出一个**web** 文件夹 
+
+flutter web 常见问题 
+======================
+Finished with error: Failed to bind web development server:
+
+    Finished with error: Failed to bind web development server:
+
+    SocketException: Failed to create server socket (OS Error: Failed to start accept), address = localhost, port = 53041
+
+浏览器运行失败
+
+解决方法：
+```
+flutter run -d chrome --web-port=8080 --web-hostname=127.0.0.1
+```
+或者在android studio运行环境中配置:    
+```
+--web-port=8080 --web-hostname=127.0.0.1
+```
+
+
