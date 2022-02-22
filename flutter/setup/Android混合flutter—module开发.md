@@ -13,7 +13,7 @@ evaluate(new File(settingsDir, 'include_flutter.groovy'))
 效果：
 ![settings](/res/flutter/flutter_2.png)
 
-## 2. 引入依赖 在app/build.gradle 中：
+## 2. 引入依赖 在工程app/build.gradle 中：
 ```
 dependencies {
   implementation project(':flutter')
