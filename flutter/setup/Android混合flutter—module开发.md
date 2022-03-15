@@ -20,7 +20,7 @@ dependencies {
 }
 ```
 ## 3. 编译运行：失败
-# Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin class 'FlutterPlugin'.  
+### Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin class 'FlutterPlugin'.  
 这是一个非常不明所以的问题：android 集成flutter module时，按照官网说明完毕必会出现  
 
 病根：参照下面`settings.gradle`文件
