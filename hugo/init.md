@@ -18,6 +18,7 @@
 # 设置主题
 > cd themes
 > git clone git@github.com:setsevireon/photophobia.git
+> git submodule add https://github.com/alex-shpak/hugo-book themes/book
 # 启动本地调试
 > hugo server --theme=photophobia --buildDrafts --watch
 
