@@ -1,9 +1,9 @@
 ### 配置环境
 第一次打开Clion,首先配置Toolchains,这里使用了Mingw
 
-![toolchains](../res/CXX/toolchain.png)
+![toolchains](/res/CXX/toolchain.png)
 
-![设置](../res/CXX/clion1.png)
+![设置](/res/CXX/clion1.png)
 
 配置Cmake options,增加以下参数：
 ```
