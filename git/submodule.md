@@ -1,3 +1,7 @@
+## 拉取主仓库
+同步主项目加上 `--recurse-submodules` 递归拉取子项目
+
+    git clone git@github.com:smallcgq/xbook.git --recurse-submodules
 ## 添加其他仓库到当前仓库
     
     git submodule add https://github.com/alex-shpak/hugo-book themes/book
@@ -14,4 +18,5 @@
 
     git submodule deinit themes/book
 
+    
     
