@@ -7,6 +7,25 @@
         * https://reg-mirror.qiniu.com
         * http://hub-mirror.c.163.com/
         * https://registry.docker-cn.com
+```
+{
+  "registry-mirrors":[
+      "https://reg-mirror.qiniu.com",
+      "http://hub-mirror.c.163.com/",
+      "https://registry.docker-cn.com"
+  ],
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  }
+}
+```
 
 ![docker](/res/docker/docker_1.png)
 
