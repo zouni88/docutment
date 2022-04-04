@@ -25,22 +25,37 @@
     可以看到 `build` 目录下多出一个**web** 文件夹 
 
 flutter web 常见问题 
-======================
-Finished with error: Failed to bind web development server:
-
-    Finished with error: Failed to bind web development server:
-
-    SocketException: Failed to create server socket (OS Error: Failed to start accept), address = localhost, port = 53041
+======================  
+**Finished with error: Failed to bind web development server:SocketException: Failed to create server socket (OS Error: Failed to start accept), address = localhost, port = 53041**
 
 浏览器运行失败
 
-解决方法：
-```
+解决方法：配置启动参数或者关闭ipv6网络属性
+```shell
 flutter run -d chrome --web-port=8080 --web-hostname=127.0.0.1
 ```
 或者在android studio运行环境中配置:    
-```
+```shell
 --web-port=8080 --web-hostname=127.0.0.1
 ```
-
+vscode 配置启动参数：
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-port=8080",
+                "--web-hostname=127.0.0.1"
+            ]
+        }
+    ]
+}
+```
 
