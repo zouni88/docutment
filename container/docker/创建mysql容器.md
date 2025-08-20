@@ -5,7 +5,7 @@ docker pull mysql
 ```
 ### 创建容器
 ```
-docker run -itd --name=mysql_wxc -p 3306:3306 -v E:\mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 mysql
+docker run -itd --name=mysql -p 3307:3306 -v ./data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 mysql
 ```
 - -p 指定3306端口映射宿主机
 - -v 数据库文件映射到宿主机
