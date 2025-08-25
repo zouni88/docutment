@@ -1,1 +1,0 @@
-https://github.com/idealvin/hugo-book
